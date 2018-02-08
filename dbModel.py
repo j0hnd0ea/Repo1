@@ -59,3 +59,4 @@ class ADUser(models.Model):
     vpnUser = models.BooleanField(default=False)
     userIDstatus = models.CharField(max_length=100,null=True)
     memberOf = models.CharField(max_length=120,null=True,default=' ')
+    
