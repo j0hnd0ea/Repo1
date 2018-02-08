@@ -60,3 +60,4 @@ class ADUser(models.Model):
     userIDstatus = models.CharField(max_length=100,null=True)
     memberOf = models.CharField(max_length=120,null=True,default=' ')
     
+#test
